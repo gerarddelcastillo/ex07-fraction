@@ -9,6 +9,6 @@ using edu::vcccd::vc::csv13::Fraction;
 
 int main()
 {
-    Fraction f(9, 17);
+    Fraction f(6, 12);
     f.output();
 }

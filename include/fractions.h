@@ -7,13 +7,19 @@
 
 #include <cstdint>
 
-namespace edu {
-    namespace vcccd {
-        namespace vc {
-            namespace csv13 {
-                class Fraction {
+namespace edu
+{
+    namespace vcccd
+    {
+        namespace vc
+        {
+            namespace csv13
+            {
+                class Fraction
+                        {
                 public:
-                    Fraction(int32_t numerator, int32_t denominator) {
+                    Fraction(int32_t numerator, int32_t denominator)
+                    {
                         this->numerator = numerator;
                         this->denominator = denominator;
                     }
